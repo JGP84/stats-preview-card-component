@@ -1,0 +1,69 @@
+@import url(https://fonts.google.com/specimen/Inter);
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: Inter, Lexend, Deca;
+  /* font-weight: 400, 700; */
+  font-size: 15px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+}
+.container-left {
+  background-color: hsl(244, 38%, 16%);
+  width: 50%;
+  padding: 5%;
+  border-bottom-left-radius: 2%;
+  border-top-left-radius: 2%;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.container-right {
+  background-image: linear-gradient(
+      rgba(170, 92, 219, 0.7),
+      rgba(170, 92, 219, 0.7)
+    ),
+    url(./images/image-header-desktop.jpg);
+    background-blend-mode: hard-light;
+
+  width: 50%;
+  border-bottom-right-radius: 2%;
+  border-top-right-radius: 2%;
+}
+
+.container-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+text-stats {
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  position: relative;
+  bottom: 10px;
+}
+span {
+  color: #aa5cdb;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height : 150%;
+
+  /* font-weight: 400; */
+}
+.space-container {
+  height: 30px;
+}
